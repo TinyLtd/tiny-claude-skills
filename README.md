@@ -1,6 +1,6 @@
 # tiny-claude-skills
 
-Tiny's corporate governance skills for Claude, installable from one repo. Each
+Tiny's skills for Claude, installable from one repo. Each
 skill is a directory under `skills/` containing a `SKILL.md`. Merge to `main`
 and CI validates the frontmatter and publishes per-skill zips (plus a bundle)
 to a rolling `latest` release.

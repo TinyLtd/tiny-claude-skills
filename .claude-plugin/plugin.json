@@ -1,6 +1,6 @@
 {
   "name": "tiny-skills-bundle",
-  "description": "Corporate governance skills for TSX-listed companies: board resolutions, AGM operations, MIC/AIF questionnaires, and SEDI shareholding.",
+  "description": "A bundle of Tiny's skills for Claude.",
   "version": "1.0.0",
   "author": {
     "name": "Tiny Ltd",

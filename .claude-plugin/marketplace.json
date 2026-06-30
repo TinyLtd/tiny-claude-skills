@@ -1,6 +1,6 @@
 {
   "name": "tiny-skills",
-  "description": "Tiny's corporate governance skills for Claude Code and Claude Chat.",
+  "description": "Tiny's skills for Claude Code and Claude Chat.",
   "owner": {
     "name": "Tiny Ltd",
     "email": "it@tiny.com"
@@ -9,7 +9,7 @@
     {
       "name": "tiny-skills-bundle",
       "source": "./",
-      "description": "Corporate governance skills for TSX-listed companies: board resolutions, AGM operations, MIC/AIF questionnaires, and SEDI shareholding.",
+      "description": "A bundle of Tiny's skills for Claude.",
       "strict": true
     }
   ]
