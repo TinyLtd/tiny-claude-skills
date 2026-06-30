@@ -1,0 +1,67 @@
+{
+  "_comment": "Investor / LP Update deck — Tiny house style. Synthetic DEMO data for Northwind Holdings (DEMO). Do not use as real figures.",
+  "title": "Northwind Holdings — Investor Update",
+  "slides": [
+    {"layout":"cover","eyebrow":"INVESTOR UPDATE","title":"The Compounding Thesis","subtitle":"How a portfolio of durable, cash-generative software businesses compounds value over time.","period":"Q1 2026","entity":"Northwind Holdings (DEMO)","preparedBy":"Office of the CFO","confidential":"Confidential — for LPs only"},
+
+    {"layout":"kpi","eyebrow":"PERFORMANCE SNAPSHOT · LTM","title":"Performance Snapshot","kpis":[
+      {"label":"Revenue","value":"$156M","delta":12.4,"deltaLabel":"YoY","goodUp":true,"sub":"LTM"},
+      {"label":"Adj. EBITDA","value":"$31M","delta":18.6,"deltaLabel":"YoY","goodUp":true,"sub":"LTM"},
+      {"label":"Margin","value":"27%","delta":3.0,"deltaLabel":"pts","goodUp":true,"sub":"Adj. EBITDA"},
+      {"label":"FCF","value":"$24M","delta":15.2,"deltaLabel":"YoY","goodUp":true,"sub":"77% conv."}
+    ],"commentary":[
+      "<b>Revenue up double digits.</b> Broad-based gains led by Acme and Globex, with no single company above a third of the mix.",
+      "<b>EBITDA outgrew revenue.</b> Operating leverage and a richer recurring mix lifted margin three points to 27%.",
+      "<b>Cash conversion stayed high.</b> ~77% of Adj. EBITDA converted to free cash flow, funding reinvestment and buybacks."
+    ],"footnote":"Synthetic illustrative figures for Northwind Holdings (DEMO). Not actual results.","railNote":"LTM through Q1 2026"},
+
+    {"layout":"content","eyebrow":"THESIS","title":"Why We Compound","lead":"Three things make this portfolio compound rather than merely grow.","bullets":[
+      "<b>Durable, cash-generative software.</b> Subscription and marketplace models with sticky customers, high gross margins, and recurring revenue that funds itself.",
+      "<b>Decentralized operations.</b> Each company runs its own P&L with its own leadership; head office allocates capital, not day-to-day decisions.",
+      "<b>Disciplined capital allocation.</b> Free cash flow is redeployed only where returns clear our hurdle — reinvestment, accretive acquisitions, debt paydown, or buybacks.",
+      "<b>Permanent ownership horizon.</b> No fund clock forces a sale. We hold quality businesses and let them compound across decades."
+    ],"footnote":"Forward-looking framing; subject to change."},
+
+    {"layout":"chart","eyebrow":"TREND","title":"Rising Earnings","chartType":"column",
+      "data":{"cats":["Q1'24","Q2'24","Q3'24","Q4'24","Q1'25","Q2'25","Q3'25","Q4'25","Q1'26"],
+              "values":[5800,6100,6450,6900,6950,7400,7850,8300,8600],"color":"#2B28F5","fmt":"#,##0"},
+      "commentary":["Adj. EBITDA has grown for nine straight quarters to a <b>$8.6M</b> quarterly run-rate — a <b>$31M</b> LTM figure.","Compounding comes from steady reinvestment, not one-off spikes."],
+      "note":"Quarterly Adj. EBITDA, $000s. Illustrative."},
+
+    {"layout":"chart","eyebrow":"COMPOSITION","title":"Diversification","chartType":"doughnut",
+      "data":{"labels":["Acme","Initech","Umbrella","Globex","Hooli","Stark"],
+              "values":[42,31,27,24,18,14],
+              "colors":["#2B28F5","#1A1980","#7A5CF5","#2E8FE0","#C44DDB","#5BB0E8"]},
+      "commentary":["Revenue is spread across six companies — the largest, <b>Acme</b>, is under 27% of the total.","Diversification smooths cash flow and lowers single-company risk."],
+      "note":"LTM revenue mix, $M. Illustrative."},
+
+    {"layout":"statgrid","eyebrow":"PORTFOLIO","title":"Portfolio Spotlights","perRow":3,"stats":[
+      {"label":"Acme","value":"$42M","sub":"+14% YoY · workflow SaaS leader"},
+      {"label":"Initech","value":"$31M","sub":"+9% YoY · 95% net retention"},
+      {"label":"Umbrella","value":"$27M","sub":"+11% YoY · marketplace flywheel"},
+      {"label":"Globex","value":"$24M","sub":"+22% YoY · fastest grower"},
+      {"label":"Hooli","value":"$18M","sub":"+7% YoY · 70% gross margin"},
+      {"label":"Stark","value":"$14M","sub":"+16% YoY · new logo momentum"}
+    ],"commentary":["Each company is profitable and self-funding; none depends on outside capital to grow."]},
+
+    {"layout":"chart","eyebrow":"VALUATION · ILLUSTRATIVE","title":"NAV / Sum-of-the-Parts","chartType":"bar",
+      "data":{"cats":["Acme","Initech","Umbrella","Globex","Hooli","Stark"],
+              "values":[84,62,49,46,25,14],
+              "colors":["#2B28F5","#1A1980","#7A5CF5","#2E8FE0","#C44DDB","#5BB0E8"],"fmt":"#,##0"},
+      "commentary":["Segment EBITDA × peer multiples implies an aggregate enterprise value near <b>$280M</b>.","Net of ~$110M illustrative debt, implied equity value is roughly <b>$170M</b> — a NAV-per-share well above where the stock trades.","All figures illustrative; not a valuation opinion."],
+      "note":"Implied EV by segment, $M. Illustrative sum-of-the-parts."},
+
+    {"layout":"kpi","eyebrow":"CAPITAL ALLOCATION · LTM","title":"Capital Allocation","kpis":[
+      {"label":"Reinvest","value":"$9M","delta":"38%","deltaLabel":"of FCF","goodUp":true},
+      {"label":"M&A","value":"$7M","delta":"29%","deltaLabel":"of FCF","goodUp":true},
+      {"label":"Debt Paydown","value":"$5M","delta":"21%","deltaLabel":"of FCF","goodUp":true},
+      {"label":"Buybacks","value":"$3M","delta":"12%","deltaLabel":"of FCF","goodUp":true}
+    ],"commentary":[
+      "<b>Reinvestment comes first.</b> Internal projects clearing our hurdle rate get funded before anything leaves the building.",
+      "<b>Acquisitions are accretive and disciplined.</b> We add businesses that fit the model at prices that beat our cost of capital.",
+      "<b>Debt paydown and buybacks soak up the rest.</b> When the share price lags NAV, repurchasing our own stock is the highest-return option available."
+    ],"footnote":"Illustrative LTM uses of free cash flow. Percentages of ~$24M FCF."},
+
+    {"layout":"close","title":"Thank you","subtitle":"Questions and discussion welcome.","contact":"Office of the CFO · Northwind Holdings (DEMO) · ir@northwind.demo"}
+  ]
+}

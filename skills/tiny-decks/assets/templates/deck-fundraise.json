@@ -1,0 +1,102 @@
+{
+  "_comment": "Tiny Decks — Fundraising Pitch template. DEMO/synthetic data only (Northwind Holdings). Round terms are ILLUSTRATIVE.",
+  "title": "Northwind Holdings — Fundraising Pitch (DEMO)",
+  "slides": [
+    {
+      "layout": "cover",
+      "eyebrow": "Fundraising",
+      "title": "An Invitation to Compound",
+      "subtitle": "A founder-led holding company acquiring profitable internet businesses and holding them forever.",
+      "period": "Q2 2026",
+      "entity": "Northwind Holdings (DEMO)",
+      "preparedBy": "Office of the CEO",
+      "confidential": "Confidential — for discussion only"
+    },
+    {
+      "layout": "content",
+      "eyebrow": "The Opportunity",
+      "title": "Why Now",
+      "lead": "The market for durable, profitable internet businesses is large, fragmented, and mispriced.",
+      "bullets": [
+        "<b>A fragmented long tail.</b> Thousands of bootstrapped software and creator-economy businesses do $2–20M in revenue with no natural buyer and no succession plan.",
+        "<b>Profit over hype.</b> We buy companies that already make money — positive Adj. EBITDA from day one, no turnaround risk, no path-to-profitability story.",
+        "<b>Permanent capital advantage.</b> Unlike PE, we never have to sell. Founders trust us with their life's work because we hold forever.",
+        "<b>Compounding flywheel.</b> Cash from the portfolio funds the next acquisition, which funds the next — a self-reinforcing engine that strengthens with scale.",
+        "<b>Proven operating playbook.</b> Six acquisitions in, our model — light-touch ownership, shared services, founder autonomy — is repeatable across verticals."
+      ],
+      "footnote": "Synthetic demonstration data. Northwind Holdings is illustrative and not a real entity."
+    },
+    {
+      "layout": "kpi",
+      "eyebrow": "The Business Today",
+      "title": "Where We Stand",
+      "kpis": [
+        {"label": "LTM Revenue", "value": "$156M", "delta": 18.0, "deltaLabel": "YoY", "goodUp": true},
+        {"label": "Adj. EBITDA", "value": "$31M", "delta": 24.0, "deltaLabel": "YoY", "goodUp": true},
+        {"label": "Margin", "value": "27%", "delta": 3.0, "deltaLabel": "pts", "goodUp": true},
+        {"label": "Companies", "value": "6", "delta": "+2", "deltaLabel": "YoY", "goodUp": true}
+      ],
+      "commentary": [
+        "<b>$156M LTM revenue</b> across six wholly-owned businesses, up 18% year over year on organic growth and two acquisitions.",
+        "<b>$31M Adj. EBITDA at a 27% margin</b> — every company in the portfolio is profitable and self-funding.",
+        "<b>Disciplined cash conversion</b> means the portfolio funds most of its own growth, with external capital reserved for acquisitions."
+      ],
+      "footnote": "DEMO figures. LTM = last twelve months. Adj. EBITDA is pre-head-office and pro forma for acquisitions."
+    },
+    {
+      "layout": "chart",
+      "eyebrow": "The Portfolio",
+      "title": "Revenue by Company",
+      "chartType": "doughnut",
+      "data": {
+        "labels": ["Acme", "Initech", "Umbrella", "Globex", "Hooli", "Stark"],
+        "values": [42000, 34000, 29000, 24000, 16000, 11000]
+      },
+      "commentary": [
+        "<b>No single point of failure.</b> Our largest company is ~27% of revenue; the portfolio is diversified across SaaS, marketplaces, and creator tools.",
+        "<b>Acme and Initech anchor the base</b> with durable subscription revenue, while Globex and Hooli are the fastest growers."
+      ],
+      "note": "DEMO — LTM revenue contribution by company ($000s)."
+    },
+    {
+      "layout": "chart",
+      "eyebrow": "Traction",
+      "title": "Adj. EBITDA Growth",
+      "chartType": "column",
+      "data": {
+        "cats": ["FY21", "FY22", "FY23", "FY24", "FY25", "LTM"],
+        "values": [6200, 9800, 14500, 19200, 25000, 31000],
+        "color": "#2B28F5",
+        "fmt": "#,##0"
+      },
+      "commentary": [
+        "<b>5x Adj. EBITDA in five years</b> — from $6.2M to $31M, a ~38% compound annual growth rate.",
+        "<b>Each cohort compounds.</b> Acquisitions land profitable, then grow under our ownership and add to the base."
+      ],
+      "note": "DEMO — consolidated Adj. EBITDA ($000s)."
+    },
+    {
+      "layout": "kpi",
+      "eyebrow": "The Ask",
+      "title": "The Round & Use of Proceeds",
+      "kpis": [
+        {"label": "Raising", "value": "$40M", "sub": "primary equity"},
+        {"label": "Pre-Money", "value": "$240M", "sub": "≈7.7x LTM EBITDA"},
+        {"label": "Post-Money", "value": "$280M", "sub": "fully diluted"},
+        {"label": "Min. Check", "value": "$2.5M", "sub": "lead committed"}
+      ],
+      "commentary": [
+        "<b>Acquisitions — 65% ($26M).</b> Fund three to four new platform acquisitions over the next 24 months at our proven entry multiples.",
+        "<b>Growth — 20% ($8M).</b> Reinvest in the existing portfolio: hiring, product, and bolt-on tuck-ins.",
+        "<b>Balance sheet — 15% ($6M).</b> Pay down acquisition debt and hold a reserve to act quickly when the right business comes up."
+      ],
+      "footnote": "ILLUSTRATIVE round terms — for discussion only, not an offer. All figures synthetic (DEMO)."
+    },
+    {
+      "layout": "close",
+      "title": "Let's build together.",
+      "subtitle": "We're inviting a small group of aligned, long-term partners to compound alongside us.",
+      "contact": "Office of the CEO · Northwind Holdings (DEMO) · invest@northwind.example"
+    }
+  ]
+}

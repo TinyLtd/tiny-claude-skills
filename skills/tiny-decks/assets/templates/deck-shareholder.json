@@ -1,0 +1,71 @@
+{
+  "_comment": "Tiny Decks — Shareholder Review template. DEMO/synthetic data for Northwind Holdings (DEMO). Not real Tiny figures.",
+  "title": "Northwind Holdings — Annual Review 2026",
+  "slides": [
+    {"layout":"cover","eyebrow":"SHAREHOLDER REVIEW","title":"Annual Review 2026","subtitle":"Full-year results, portfolio performance, balance sheet and forward outlook.","period":"Fiscal Year 2026","entity":"Northwind Holdings (DEMO)","preparedBy":"Office of the CFO","confidential":"Confidential — For Shareholders Only"},
+
+    {"layout":"statgrid","eyebrow":"SCOREBOARD","title":"The Period in Review","perRow":3,"stats":[
+      {"label":"Revenue (LTM)","value":"$156M","sub":"+11.4% YoY"},
+      {"label":"Adj. EBITDA","value":"$31M","sub":"+18.2% YoY"},
+      {"label":"Adj. EBITDA Margin","value":"27%","sub":"+1.6 pts"},
+      {"label":"Free Cash Flow","value":"$21M","sub":"68% conversion"},
+      {"label":"Operating Companies","value":"6","sub":"all profitable"},
+      {"label":"NAV / Share","value":"$14.50","sub":"illustrative · +9.8%"}
+    ],"commentary":[
+      "<b>A record year.</b> Revenue and Adj. EBITDA both reached all-time highs on broad-based portfolio strength.",
+      "<b>Margin discipline held.</b> Operating leverage drove margin expansion despite continued reinvestment."
+    ]},
+
+    {"layout":"kpi","eyebrow":"CONSOLIDATED · FULL YEAR","title":"Financial Highlights","kpis":[
+      {"label":"Revenue","value":"$156M","delta":11.4,"deltaLabel":"YoY","goodUp":true,"sub":"vs $140M FY25"},
+      {"label":"Adj. EBITDA","value":"$31M","delta":18.2,"deltaLabel":"YoY","goodUp":true,"sub":"vs $26.2M FY25"},
+      {"label":"EBITDA Margin","value":"27%","delta":1.6,"deltaLabel":"pts","goodUp":true,"sub":"vs 25.4% FY25"},
+      {"label":"Leverage","value":"1.5x","delta":-0.4,"deltaLabel":"turns","goodUp":false,"sub":"Net Debt / EBITDA"}
+    ],"commentary":[
+      "<b>Revenue up $16M YoY</b> led by Acme (+$6.1M) and Globex (+$4.3M), with every operating company growing.",
+      "<b>Adj. EBITDA up $4.8M</b> as margin expansion outpaced revenue growth on improving mix.",
+      "<b>Leverage fell to 1.5x</b> from 1.9x, on EBITDA growth plus $9M of scheduled debt repayment."
+    ],"footnote":"DEMO / illustrative figures for Northwind Holdings. Not actual Tiny Ltd. results."},
+
+    {"layout":"chart","eyebrow":"TREND","title":"Revenue & Margin Trend","chartType":"combo",
+      "data":{"cats":["FY22","FY23","FY24","FY25","FY26"],
+              "values":[98000,114000,127000,140000,156000],
+              "line":[22,23,24,25.4,27],"fmt":"#,##0","lineFmt":"0\"%\""},
+      "commentary":[
+        "<b>Five straight years of growth.</b> Revenue compounded ~12% annually while margin climbed from 22% to 27%.",
+        "<b>FY26 was a record</b> on both top line and profitability."
+      ],"note":"Revenue in $000s (columns); Adj. EBITDA margin % (line, right axis). DEMO data."},
+
+    {"layout":"table","eyebrow":"DETAIL","title":"Portfolio Performance","bandMeta":"Fiscal Year 2026 · $000s",
+      "columns":[{"label":"Company"},{"label":"Revenue"},{"label":"YoY"},{"label":"Adj. EBITDA"},{"label":"Margin"}],
+      "rows":[
+        ["Acme","42,300","16.8%","12,900","30%"],
+        ["Initech","31,500","8.4%","7,560","24%"],
+        ["Umbrella","27,800","12.1%","6,950","25%"],
+        ["Globex","24,600","21.2%","5,410","22%"],
+        ["Hooli","18,200","6.3%","3,640","20%"],
+        ["Stark","11,600","-3.4%","2,320","20%"],
+        ["Consolidated","156,000","11.4%","31,180","27%"]
+      ],"totalRows":[6],"varianceCols":[2],"highlightLastCol":true,
+      "note":"Consolidated Adj. EBITDA includes ~$7.6M of head-office costs net of intercompany. DEMO figures."},
+
+    {"layout":"kpi","eyebrow":"FINANCIAL POSITION · YEAR END","title":"Balance Sheet","kpis":[
+      {"label":"Cash","value":"$28M","delta":12.0,"deltaLabel":"YoY","goodUp":true,"sub":"& equivalents"},
+      {"label":"Total Debt","value":"$75M","delta":-10.7,"deltaLabel":"YoY","goodUp":false,"sub":"vs $84M FY25"},
+      {"label":"Net Debt","value":"$47M","delta":-20.3,"deltaLabel":"YoY","goodUp":false,"sub":"1.5x EBITDA"},
+      {"label":"Equity","value":"$118M","delta":14.6,"deltaLabel":"YoY","goodUp":true,"sub":"book value"}
+    ],"commentary":[
+      "<b>Net debt down $12M</b> to $47M as free cash flow funded both debt paydown and reinvestment.",
+      "<b>Equity grew to $118M</b> on retained earnings; book NAV per share of ~$14.50 (illustrative)."
+    ],"footnote":"Illustrative balance-sheet figures for Northwind Holdings (DEMO). Not actual Tiny Ltd. results."},
+
+    {"layout":"content","eyebrow":"OUTLOOK","title":"FY27 Priorities","lead":"Four things we are focused on heading into next year.","bullets":[
+      "<b>Scale the winners</b> — concentrate growth capital behind Acme and Globex, our highest-return compounders.",
+      "<b>Margin to 28%+</b> — extend operating leverage through shared services and disciplined hiring.",
+      "<b>Deleverage to ~1.0x</b> — continue scheduled repayment while preserving M&A optionality.",
+      "<b>Disciplined M&A</b> — one or two tuck-in acquisitions at attractive multiples, funded from free cash flow."
+    ],"footnote":"Forward-looking; DEMO illustration only and subject to change."},
+
+    {"layout":"close","title":"Thank you","subtitle":"Questions and discussion welcome.","contact":"Office of the CFO · Northwind Holdings (DEMO)"}
+  ]
+}

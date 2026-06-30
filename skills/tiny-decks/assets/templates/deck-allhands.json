@@ -1,0 +1,93 @@
+{
+  "_comment": "Internal all-hands deck for Northwind Holdings (DEMO). Synthetic data, not real Tiny figures. Tiny house style, friendlier internal tone.",
+  "title": "Where We Stand — All-Hands April 2026",
+  "slides": [
+    {
+      "layout": "cover",
+      "eyebrow": "ALL-HANDS",
+      "title": "Where We Stand",
+      "subtitle": "Our monthly scoreboard — the wins, the hard parts, and where we go next. Straight from the team, for the team.",
+      "period": "April 2026",
+      "entity": "Northwind Holdings (DEMO)"
+    },
+    {
+      "layout": "statgrid",
+      "eyebrow": "THE SCOREBOARD",
+      "title": "The Scoreboard",
+      "perRow": 3,
+      "stats": [
+        {"label": "Revenue", "value": "$14.5M", "sub": "+8% MoM"},
+        {"label": "EBITDA", "value": "$3.9M", "sub": "+12% MoM"},
+        {"label": "Margin", "value": "27%", "sub": "+2 pts"},
+        {"label": "Cash", "value": "$21.4M", "sub": "comfortable runway"},
+        {"label": "Headcount", "value": "312", "sub": "+9 this month"},
+        {"label": "NPS", "value": "62", "sub": "+5 vs Q1"}
+      ],
+      "commentary": ["<b>A strong month across the board.</b> Revenue and EBITDA both up, margin expanding, and the team keeps growing — eight months of headcount growth and counting."]
+    },
+    {
+      "layout": "gauges",
+      "eyebrow": "TRACKING VS PLAN",
+      "title": "Tracking vs Plan",
+      "gauges": [
+        {"label": "Revenue ($M)", "value": 14.5, "max": 18, "marker": 13.8, "unit": "M", "markerLabel": "plan"},
+        {"label": "EBITDA ($M)", "value": 3.9, "max": 5, "marker": 3.6, "unit": "M", "markerLabel": "plan"},
+        {"label": "Margin", "value": 27, "max": 35, "marker": 25, "unit": "%", "markerLabel": "plan"}
+      ],
+      "commentary": [
+        "<b>Revenue ahead of plan</b> by $0.7M — the Acme and Globex teams carried the month.",
+        "<b>EBITDA ahead of plan</b> by $0.3M as we held costs flat while revenue climbed.",
+        "<b>Margin two points above plan</b> — the operating discipline is paying off."
+      ],
+      "note": "Marker shows the monthly plan target. Figures are illustrative (DEMO)."
+    },
+    {
+      "layout": "content",
+      "eyebrow": "WINS THIS MONTH",
+      "title": "Wins This Month",
+      "lead": "A lot to celebrate this month — here's what each team pulled off.",
+      "bullets": [
+        "<b>Acme</b> shipped the new onboarding flow and saw signups jump 22% in two weeks.",
+        "<b>Globex</b> closed its biggest enterprise deal ever — $1.2M ARR, a year in the making.",
+        "<b>Initech</b> cut support response time in half after the help-desk revamp.",
+        "<b>Stark</b> launched the mobile app to a 4.8-star store rating out of the gate.",
+        "<b>Hooli</b> hit 99.98% uptime — the best quarter on record for the platform.",
+        "<b>Umbrella</b> renewed three at-risk accounts and turned one into a case study."
+      ]
+    },
+    {
+      "layout": "content",
+      "eyebrow": "AN HONEST LOOK",
+      "title": "An Honest Look",
+      "lead": "We share the wins, so we share the hard parts too. Here's what we're wrestling with.",
+      "bullets": [
+        "<b>Creative Market churn ticked up</b> — we lost two mid-size accounts and we don't fully understand why yet.",
+        "<b>Hiring is slower than we'd like</b> — three key engineering roles have been open for over 60 days.",
+        "<b>Umbrella's roadmap slipped</b> a quarter; we under-scoped the migration and it's costing us focus.",
+        "<b>Support load is climbing</b> faster than headcount — the team is stretched and we feel it.",
+        "<b>Cash is healthy but margin pressure is real</b> — cloud costs grew faster than revenue this month."
+      ],
+      "footnote": "We'd rather name these now than pretend they don't exist. Bring your ideas to the Q&A."
+    },
+    {
+      "layout": "content",
+      "eyebrow": "PRIORITIES",
+      "title": "Priorities",
+      "lead": "Where we're putting our energy over the next few weeks.",
+      "bullets": [
+        "<b>Crack the churn question</b> — a small task force digs into why accounts are leaving and ships fixes fast.",
+        "<b>Close the open roles</b> — referral bonus doubled, and every hiring manager gets recruiter support.",
+        "<b>Re-scope the Umbrella migration</b> — honest timeline, smaller milestones, weekly check-ins.",
+        "<b>Get ahead of support</b> — two new hires plus a self-serve knowledge base launching mid-May.",
+        "<b>Tame cloud spend</b> — a focused week on the biggest cost drivers before they compound."
+      ],
+      "footnote": "Forward-looking and subject to change — but this is the plan today."
+    },
+    {
+      "layout": "close",
+      "title": "Onward.",
+      "subtitle": "Proud of this team. Let's keep building.",
+      "contact": "Townhall Q&A — Thursday 11AM, Main Room & Zoom"
+    }
+  ]
+}

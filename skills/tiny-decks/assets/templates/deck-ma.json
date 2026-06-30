@@ -1,0 +1,65 @@
+{
+  "_comment": "M&A / Data-room Overview (buyer-facing) — Northwind Holdings (DEMO). All figures synthetic and ILLUSTRATIVE, not real Tiny data.",
+  "title": "Project North — Business Overview",
+  "slides": [
+    {"layout":"cover","eyebrow":"Confidential — Project North","title":"Business Overview","subtitle":"Buyer overview and data-room summary for a controlled process.","period":"LTM ended March 2026","entity":"Northwind Holdings (DEMO)","preparedBy":"Office of the CFO","confidential":"Strictly Confidential — Do Not Distribute"},
+
+    {"layout":"content","eyebrow":"Overview","title":"Business at a Glance","lead":"Northwind is a profitable, founder-owned holding company of six software and consumer brands.","bullets":[
+      "<b>What we are.</b> A diversified group of six brands — Acme, Initech, Umbrella, Globex, Hooli and Stark — spanning B2B SaaS, creative tools and consumer hardware.",
+      "<b>Model.</b> Majority subscription and recurring revenue with a high-margin transactional layer; centralized finance, infrastructure and M&A, with autonomous brand teams.",
+      "<b>Scale.</b> ~$156M revenue and ~$31M Adjusted EBITDA (27% margin) on an LTM basis, generated across ~40 countries.",
+      "<b>Moats.</b> Entrenched brands, low customer concentration, ~115% net revenue retention in the SaaS segment, and proprietary IP across each business.",
+      "<b>People.</b> ~420 full-time team members; experienced, retained brand leadership with no single-person dependency."
+    ],"footnote":"Illustrative demo data — Northwind Holdings (DEMO) is synthetic and not a real entity."},
+
+    {"layout":"kpi","eyebrow":"Confidential · LTM","title":"Financial Profile","kpis":[
+      {"label":"Revenue","value":"$156M","delta":11.4,"deltaLabel":"YoY","goodUp":true,"sub":"LTM Mar 2026"},
+      {"label":"Adj. EBITDA","value":"$31M","delta":14.2,"deltaLabel":"YoY","goodUp":true,"sub":"normalized"},
+      {"label":"Margin","value":"27%","delta":2.0,"deltaLabel":"pts","goodUp":true,"sub":"Adj. EBITDA"},
+      {"label":"Rev Growth","value":"11%","delta":"organic","deltaLabel":"","goodUp":true,"sub":"YoY"}
+    ],"commentary":[
+      "<b>Durable top line.</b> ~$156M LTM revenue growing low-double-digits organically, with no single brand above ~30% of the total.",
+      "<b>High-quality earnings.</b> ~$31M normalized Adjusted EBITDA at a 27% margin, with strong cash conversion and low maintenance capex.",
+      "<b>Diversified mix.</b> Recurring SaaS and subscriptions anchor the model; transactional and hardware add upside without concentration risk."
+    ],"footnote":"Illustrative figures for a synthetic demo company. Adj. EBITDA is normalized — see Normalized EBITDA bridge."},
+
+    {"layout":"chart","eyebrow":"Revenue Quality","title":"Recurring vs. Transactional","chartType":"doughnut",
+      "data":{"labels":["Recurring SaaS","Subscriptions","Transactional","Hardware / One-time"],"values":[71,42,28,15]},
+      "commentary":[
+        "<b>~72% recurring.</b> Recurring SaaS and subscriptions make up roughly $113M of $156M LTM revenue.",
+        "<b>Predictable base.</b> ~115% net revenue retention in SaaS underpins forward visibility; transactional and hardware add high-margin upside."
+      ],"note":"Illustrative revenue split ($M, LTM). Demo data."},
+
+    {"layout":"table","eyebrow":"Quality of Earnings","title":"Normalized EBITDA","bandMeta":"LTM Mar 2026 · $000s · Illustrative",
+      "columns":[{"label":"Bridge item"},{"label":"Amount"},{"label":"Note"}],
+      "rows":[
+        ["Reported EBITDA","24,800","Per management accounts"],
+        ["+ One-time legal / deal costs","2,650","Non-recurring litigation & advisory"],
+        ["+ Owner / founder compensation","2,100","Normalize to market rate"],
+        ["+ Discontinued product line","1,450","Globex line wound down FY25"],
+        ["+ Non-recurring restructuring","1,300","Umbrella reorg, completed"],
+        ["− Run-rate hosting normalization","-900","Reflect post-migration cloud costs"],
+        ["+ Other adjustments","600","Sundry one-offs"],
+        ["Normalized Adj. EBITDA","32,000","27% margin on $156M revenue"]
+      ],"totalRows":[0,7],"varianceCols":[1],"note":"ILLUSTRATIVE quality-of-earnings bridge — synthetic demo data, subject to buyer QoE confirmation."},
+
+    {"layout":"content","eyebrow":"Scope","title":"What's Included","lead":"The transaction conveys the full operating group and its supporting assets.","bullets":[
+      "<b>Operating brands.</b> 100% of Acme, Initech, Umbrella, Globex, Hooli and Stark — all customers, revenue and contracts.",
+      "<b>Intellectual property.</b> Source code, trademarks, domains, patents and design assets across all six brands.",
+      "<b>Team.</b> ~420 employees including retained brand leadership; key-person agreements and standard transition support.",
+      "<b>Contracts.</b> Customer agreements, key vendor and reseller relationships, and assignable cloud / infrastructure commitments.",
+      "<b>Infrastructure.</b> Shared finance, data and engineering platforms; data-room contains org charts, financials and material contracts.",
+      "<b>Excluded.</b> Surplus cash, the founder's personal vehicles and two non-core minority investments are excluded from scope."
+    ],"footnote":"Indicative scope — final perimeter to be confirmed in definitive agreements. Demo data."},
+
+    {"layout":"content","eyebrow":"Next Steps","title":"Transaction Considerations","lead":"A clean, well-prepared process designed to move quickly with the right partner.","bullets":[
+      "<b>Structure.</b> 100% equity sale (or asset purchase) on a cash-free, debt-free basis with a normalized working-capital target.",
+      "<b>Valuation basis.</b> Marketed on normalized Adj. EBITDA of ~$31M; illustrative range subject to diligence and final structure.",
+      "<b>Process & timeline.</b> IOIs requested within ~3 weeks, management meetings and confirmatory diligence over ~6 weeks, signing targeted within ~90 days.",
+      "<b>Diligence.</b> Populated data room covering financials, QoE, legal, tax, HR and IP; third-party QoE and tech reviews supported.",
+      "<b>Next steps.</b> Sign NDA, access the data room, submit a non-binding IOI, and schedule management presentations."
+    ],"footnote":"Illustrative terms for a synthetic demo. Not an offer or solicitation."},
+
+    {"layout":"close","title":"Project North","subtitle":"Confidential buyer overview — questions and next steps welcome.","contact":"Office of the CFO · Northwind Holdings (DEMO)"}
+  ]
+}

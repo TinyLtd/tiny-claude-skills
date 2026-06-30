@@ -1,0 +1,47 @@
+{
+  "_comment": "Lender / Banking review deck for Northwind Holdings (DEMO). All credit figures are ILLUSTRATIVE synthetic data — not real Tiny figures.",
+  "title": "Northwind Holdings — Credit & Covenant Update",
+  "slides": [
+    {"layout":"cover","eyebrow":"Lender Review","title":"Credit & Covenant Update","subtitle":"Leverage, coverage, facility detail and covenant compliance for the lending syndicate.","period":"April 2026","entity":"Northwind Holdings","preparedBy":"Office of the CFO","confidential":"Confidential"},
+    {"layout":"kpi","eyebrow":"Consolidated · LTM","title":"Credit Highlights","kpis":[
+      {"label":"LTM Adj. EBITDA","value":"$31.0M","delta":8.4,"deltaLabel":"YoY","goodUp":true},
+      {"label":"Net Debt","value":"$110M","delta":-3.5,"deltaLabel":"QoQ","goodUp":false},
+      {"label":"Net Leverage","value":"3.5x","delta":-0.2,"deltaLabel":"QoQ","goodUp":false},
+      {"label":"Interest Coverage","value":"3.1x","delta":0.3,"deltaLabel":"QoQ","goodUp":true}
+    ],"commentary":[
+      "<b>LTM Adj. EBITDA of $31.0M</b> on LTM revenue of $156M (~27% margin), up 8.4% year over year.",
+      "<b>Net leverage of 3.5x</b> sits comfortably inside the 4.5x maximum covenant, improving 0.2x on debt paydown.",
+      "<b>Interest coverage of 3.1x</b> remains well above the 2.0x minimum, supported by EBITDA growth and stable rates."
+    ],"footnote":"Illustrative credit figures — replace with live inputs."},
+    {"layout":"gauges","eyebrow":"Credit","title":"Leverage & Coverage","gauges":[
+      {"label":"Net leverage","value":3.5,"max":6,"marker":4.5,"unit":"x"},
+      {"label":"Interest coverage","value":3.1,"max":5,"marker":2.0,"unit":"x"}
+    ],"commentary":[
+      "<b>Net leverage 3.5x</b> — 1.0x of headroom beneath the 4.5x covenant ceiling.",
+      "<b>Interest coverage 3.1x</b> — 1.1x of cushion above the 2.0x covenant floor."
+    ],"note":"Illustrative credit figures — replace with live inputs."},
+    {"layout":"chart","eyebrow":"Capital Structure","title":"Debt by Facility","chartType":"bar",
+      "data":{"cats":["Senior term loan","Revolver (drawn)","Subsidiary notes","Convertible debentures"],
+              "values":[62000,18000,22000,28000],"fmt":"$#,##0,\"M\"","colors":["#2B28F5","#1A1980","#7A5CF5","#2E8FE0"]},
+      "commentary":[
+        "<b>Senior term loan ($62M)</b> is the anchor facility, ~47% of gross debt.",
+        "<b>Revolver drawn $18M of a $40M commitment</b>, leaving $22M of undrawn liquidity."
+      ],"note":"Illustrative facility balances ($000s) — replace with live inputs."},
+    {"layout":"timeline","eyebrow":"Debt","title":"Maturity Profile","items":[
+      {"year":"2026","label":"Revolver (drawn)","value":18000,"valueLabel":"$18M"},
+      {"year":"2027","label":"Subsidiary notes","value":22000,"valueLabel":"$22M"},
+      {"year":"2028","label":"Senior term loan","value":62000,"valueLabel":"$62M"},
+      {"year":"2030","label":"Convertible debentures","value":28000,"valueLabel":"$28M"}
+    ],"note":"Illustrative maturities — replace with live inputs."},
+    {"layout":"table","eyebrow":"Compliance","title":"Covenant Compliance","bandMeta":"April 2026 · as tested",
+      "columns":[{"label":"Covenant"},{"label":"Required"},{"label":"Actual"},{"label":"Headroom"},{"label":"Status"}],
+      "rows":[
+        ["Max net leverage","≤ 4.50x","3.50x","1.00x","In compliance"],
+        ["Min interest coverage","≥ 2.00x","3.10x","1.10x","In compliance"],
+        ["Min liquidity","≥ $15.0M","$31.0M","$16.0M","In compliance"],
+        ["Max capex","≤ $12.0M","$7.4M","$4.6M","In compliance"],
+        ["Min fixed-charge coverage","≥ 1.25x","1.85x","0.60x","In compliance"]
+      ],"highlightLastCol":true,"note":"Illustrative covenant tests — replace with live inputs. All covenants in compliance as of the test date."},
+    {"layout":"close","title":"In full compliance","subtitle":"All financial covenants satisfied with meaningful headroom. Questions and discussion welcome.","contact":"Office of the CFO · Northwind Holdings (DEMO)"}
+  ]
+}

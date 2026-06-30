@@ -1,0 +1,133 @@
+{
+  "_comment": "BLANK TEMPLATE — same shape as demo-model.json with emptied/placeholder values. Replace every [bracketed] label and every 0 with real figures. Money in $000s. Negatives with a minus sign. Do NOT add computed fields (margins, totals, %, gross, ev) — compute.py derives those. See references/data-schema.md.",
+  "meta": {
+    "period": "[Month Year]", "periodShort": "[Mon-YY]", "priorMonth": "[Prior Mon-YY]",
+    "priorYear": "[Prior Yr Mon-YY]", "fiscalYTD": "[YTD Year]", "currency": "$",
+    "fundCurrency": "$US", "preparedBy": "Office of the CFO",
+    "entity": "[Company Name]", "status": "Board Update",
+    "confidential": "Confidential"
+  },
+  "trend": {
+    "_comment": "13 months oldest->newest. months as MM-YY. Last entry is the current reporting month. Enter revenue & ebitda in $000s; margin is auto-computed.",
+    "months": ["00-00","00-00","00-00","00-00","00-00","00-00","00-00","00-00","00-00","00-00","00-00","00-00","00-00"],
+    "revenue": [0,0,0,0,0,0,0,0,0,0,0,0,0],
+    "ebitda":  [0,0,0,0,0,0,0,0,0,0,0,0,0]
+  },
+  "summary": {
+    "_comment": "Two consolidated views. monthRev/Ebt come from the last trend entry. Enter prior-month/prior-year comparatives and YTD/LTM totals; deltas & margins are auto-computed.",
+    "proForma": {
+      "basis": "Organic / pro forma.",
+      "monthRevPriorMo": 0, "monthRevPriorYr": 0,
+      "monthEbtPriorMo": 0, "monthEbtPriorYr": 0,
+      "ytd": {"rev": 0, "revPriorYr": 0, "ebitda": 0, "ebitdaPriorYr": 0},
+      "ltm": {"rev": 0, "revPriorYr": 0, "ebitda": 0, "ebitdaPriorYr": 0},
+      "notes": "",
+      "commentary": ["", "", ""]
+    },
+    "asReported": {
+      "basis": "Includes all entities owned in the period.",
+      "monthRevPriorMo": 0, "monthRevPriorYr": 0,
+      "monthEbtPriorMo": 0, "monthEbtPriorYr": 0,
+      "ytd": {"rev": 0, "revPriorYr": 0, "ebitda": 0, "ebitdaPriorYr": 0},
+      "ltm": {"rev": 0, "revPriorYr": 0, "ebitda": 0, "ebitdaPriorYr": 0},
+      "notes": "",
+      "commentary": ["", "", ""]
+    }
+  },
+  "pnl": {
+    "_comment": "One row per operating company plus a Head Office row. Enter rev/cos/staff/prof/sm/subs/ebitda in $000s; gross, margin and the Consolidated row are auto-computed. color = hex used in charts.",
+    "companies": [
+      {"name":"[Company 1]", "short":"[Co 1]", "color":"#2B28F5", "rev":1, "cos":0, "staff":0, "prof":0, "sm":0, "subs":0, "ebitda":0},
+      {"name":"[Company 2]", "short":"[Co 2]", "color":"#7A5CF5", "rev":1, "cos":0, "staff":0, "prof":0, "sm":0, "subs":0, "ebitda":0},
+      {"name":"Head Office", "short":"Head Off.", "color":"#BFC0E6", "rev":1, "cos":0, "staff":0, "prof":0, "sm":0, "subs":0, "ebitda":0}
+    ],
+    "note": ""
+  },
+  "byCompanyMonth": {
+    "_comment": "Current month vs prior month / prior year, plus TTM and a 6-point sparkline. cur/priorMo/priorYr/ttm in $000s; mom/yoy and the Consolidated total are auto-computed.",
+    "revenue": [
+      {"name":"[Company 1]", "color":"#2B28F5", "cur":0, "priorMo":1, "priorYr":1, "ttm":0, "spark":[0,0,0,0,0,0]},
+      {"name":"[Company 2]", "color":"#7A5CF5", "cur":0, "priorMo":1, "priorYr":1, "ttm":0, "spark":[0,0,0,0,0,0]},
+      {"name":"Head Office", "color":"#BFC0E6", "cur":0, "priorMo":1, "priorYr":1, "ttm":0, "spark":[0,0,0,0,0,0]}
+    ],
+    "ebitda": [
+      {"name":"[Company 1]", "color":"#2B28F5", "cur":0, "priorMo":1, "priorYr":1, "ttm":0, "spark":[0,0,0,0,0,0]},
+      {"name":"[Company 2]", "color":"#7A5CF5", "cur":0, "priorMo":1, "priorYr":1, "ttm":0, "spark":[0,0,0,0,0,0]},
+      {"name":"Other & HO", "color":"#BFC0E6", "cur":0, "priorMo":1, "priorYr":1, "ttm":0, "spark":[0,0,0,0,0,0]}
+    ]
+  },
+  "byCompanyYTD": {
+    "_comment": "Year-to-date per company. rev/ebitda in $000s. revYoY/ebitdaYoY are percentages you enter (or null if no prior-year base). consolRevYoY/consolEbitdaYoY are consolidated %s. budgetRev/budgetEbitda in $000s. Totals & vs-budget are auto-computed.",
+    "rows": [
+      {"name":"[Company 1]", "color":"#2B28F5", "rev":0, "revYoY":0, "ebitda":0, "ebitdaYoY":0, "spark":[0,0,0,0,0,0]},
+      {"name":"[Company 2]", "color":"#7A5CF5", "rev":0, "revYoY":0, "ebitda":0, "ebitdaYoY":0, "spark":[0,0,0,0,0,0]},
+      {"name":"Head Office", "color":"#BFC0E6", "rev":0, "revYoY":0, "ebitda":0, "ebitdaYoY":0, "spark":[0,0,0,0,0,0]}
+    ],
+    "consolRevYoY": 0, "consolEbitdaYoY": 0,
+    "budgetRev": 0, "budgetEbitda": 0,
+    "commentary": ["", ""]
+  },
+  "revenueTrend": {
+    "_comment": "Bullets shown beside the monthly revenue chart. <b>..</b> bold is supported.",
+    "commentary": ["", ""]
+  },
+  "ebitdaTrend": {
+    "_comment": "Bullets shown beside the Adj. EBITDA & margin chart.",
+    "commentary": ["", ""]
+  },
+  "bridge": {
+    "_comment": "YoY Adj. EBITDA waterfall: one item per driver, value = YoY $000s contribution (negative = drag). start/end endpoints are auto-computed from summary & trend.",
+    "items": [
+      {"label":"[Driver 1]", "value":0},
+      {"label":"[Driver 2]", "value":0},
+      {"label":"[Driver 3]", "value":0}
+    ],
+    "commentary": ["", ""]
+  },
+  "mix": {
+    "_comment": "Note shown under the portfolio-mix donuts. The donut data itself is auto-computed from pnl.companies.",
+    "note": ""
+  },
+  "matrix": {
+    "_comment": "Value-creation bubble chart. x = revenue growth %, y = TTM margin %, size = TTM revenue ($000s). axis ranges frame the plot.",
+    "points": [
+      {"label":"[Company 1]", "color":"#2B28F5", "x":0, "y":0, "size":1},
+      {"label":"[Company 2]", "color":"#7A5CF5", "x":0, "y":0, "size":1}
+    ],
+    "axis": {"xRange":[-40,110], "yRange":[-5,45]}
+  },
+  "fcf": {
+    "_comment": "FCF roll-up. Enter value ($000s) on each kind:line row (negatives with a minus sign). Leave value off kind:subtotal and kind:total rows — they are auto-summed.",
+    "lines": [
+      {"label":"Adjusted EBITDA", "value":0, "kind":"line", "strong":true},
+      {"label":"Less: Adj. EBITDA to NCI", "value":0, "kind":"line", "muted":true},
+      {"label":"Cash taxes paid", "value":0, "kind":"line", "muted":true},
+      {"label":"Interest payments on debt", "value":0, "kind":"line", "muted":true},
+      {"label":"Severance", "value":0, "kind":"line", "muted":true},
+      {"label":"Other adjustments, net", "value":0, "kind":"line", "muted":true},
+      {"label":"FCF to shareholders", "kind":"subtotal"},
+      {"label":"Add back: severance & non-recurring, net", "value":0, "kind":"line"},
+      {"label":"Adjusted FCF to shareholders", "kind":"total"}
+    ],
+    "commentary": ["", "", ""],
+    "note": ""
+  },
+  "fund": {
+    "_comment": "Fund holdings. rev/ebitda in $000s, ownership as a percent. tinyLPInterest = Tiny's LP % of the fund. margins, attributable amounts and LP totals are auto-computed.",
+    "holdings": [
+      {"name":"[Holding 1]", "color":"#2B28F5", "rev":1, "ebitda":0, "ownership":0},
+      {"name":"[Holding 2]", "color":"#7A5CF5", "rev":1, "ebitda":0, "ownership":0}
+    ],
+    "tinyLPInterest": 0,
+    "commentary": ["", "", ""]
+  },
+  "sotp": {
+    "_comment": "Sum-of-the-parts valuation. ttmEbitda ($000s) x multiple = segment EV (auto). netDebt in $000s, tinyEquityPct = Tiny's % of equity value. EV total, equity value and the Tiny/NCI split are auto-computed.",
+    "segments": [
+      {"name":"[Segment 1]", "color":"#1A1980", "ttmEbitda":0, "multiple":0},
+      {"name":"[Segment 2]", "color":"#2B28F5", "ttmEbitda":0, "multiple":0}
+    ],
+    "netDebt": 0, "tinyEquityPct": 0,
+    "note": ""
+  }
+}

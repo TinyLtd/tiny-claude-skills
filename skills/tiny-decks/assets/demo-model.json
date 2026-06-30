@@ -1,0 +1,176 @@
+{
+  "_comment": "SYNTHETIC DEMO DATA — fictional companies, illustrative figures. Not Tiny financials. Use as a worked example; replace with real data per references/data-schema.md.",
+  "meta": {
+    "period": "April 2026", "periodShort": "Apr-26", "priorMonth": "Mar-26",
+    "priorYear": "Apr-25", "fiscalYTD": "YTD 2026", "currency": "$",
+    "fundCurrency": "$US", "preparedBy": "Office of the CFO",
+    "entity": "Northwind Holdings (DEMO)", "status": "Board Update — Demo",
+    "confidential": "Confidential — Illustrative"
+  },
+  "trend": {
+    "months": ["04-25","05-25","06-25","07-25","08-25","09-25","10-25","11-25","12-25","01-26","02-26","03-26","04-26"],
+    "revenue": [12000,12400,12100,12600,12900,12700,12300,13000,12800,13200,12900,12700,14500],
+    "ebitda":  [2400,2520,2480,2600,2900,2300,2250,2200,3100,2900,2500,2050,3900]
+  },
+  "summary": {
+    "proForma": {
+      "basis": "Organic / pro forma. Illustrative demo basis.",
+      "monthRevPriorMo": 12700, "monthRevPriorYr": 12000,
+      "monthEbtPriorMo": 2050, "monthEbtPriorYr": 2400,
+      "ytd": {"rev": 53300, "revPriorYr": 49000, "ebitda": 11350, "ebitdaPriorYr": 10200},
+      "ltm": {"rev": 156300, "revPriorYr": 148000, "ebitda": 31470, "ebitdaPriorYr": 29500},
+      "notes": "Demo figures.",
+      "commentary": [
+        "<b>Revenue grew YoY</b> on Globex (+$1.8M licensing) and Initech (+$0.5M), offset by Umbrella and Hooli.",
+        "<b>Margin expanded to 27%</b> on a high-margin licensing deal with minimal associated cost.",
+        "<b>LTM Adj. EBITDA +$2.0M YoY</b>, led by Initech, partly offset by Umbrella softness."
+      ]
+    },
+    "asReported": {
+      "basis": "Includes all entities owned in the period. Illustrative demo basis.",
+      "monthRevPriorMo": 12700, "monthRevPriorYr": 11200,
+      "monthEbtPriorMo": 2050, "monthEbtPriorYr": 1900,
+      "ytd": {"rev": 54100, "revPriorYr": 47200, "ebitda": 11420, "ebitdaPriorYr": 9300},
+      "ltm": {"rev": 158900, "revPriorYr": 142000, "ebitda": 31200, "ebitdaPriorYr": 26800},
+      "notes": "Demo figures.",
+      "commentary": [
+        "<b>Globex +$1.7M MoM</b> on the licensing deal; Acme +$0.2M with positive momentum.",
+        "<b>MoM offsets</b> from Umbrella (−$0.2M) and Hooli (−$0.1M).",
+        "<b>Adj. EBITDA +$1.9M MoM</b> led by Globex; Hooli cost savings beginning to land."
+      ]
+    }
+  },
+  "pnl": {
+    "companies": [
+      {"name":"Acme",    "short":"Acme",    "color":"#2B28F5", "rev":4200, "cos":1700, "staff":820,  "prof":200, "sm":50,  "subs":220, "ebitda":1210},
+      {"name":"Initech", "short":"Initech", "color":"#1A1980", "rev":3400, "cos":180,  "staff":1480, "prof":40,  "sm":140, "subs":220, "ebitda":1340},
+      {"name":"Umbrella","short":"Umbrella","color":"#7A5CF5", "rev":2300, "cos":500,  "staff":1020, "prof":56,  "sm":13,  "subs":131, "ebitda":580},
+      {"name":"Globex",  "short":"Globex",  "color":"#C44DDB", "rev":2250, "cos":100,  "staff":520,  "prof":24,  "sm":5,   "subs":21,  "ebitda":1580},
+      {"name":"Hooli",   "short":"Hooli",   "color":"#2E8FE0", "rev":1900, "cos":1090, "staff":370,  "prof":52,  "sm":240, "subs":150, "ebitda":-2},
+      {"name":"Stark",   "short":"Stark",   "color":"#5BB0E8", "rev":420,  "cos":210,  "staff":150,  "prof":12,  "sm":10,  "subs":24,  "ebitda":14},
+      {"name":"Head Office","short":"Head Off.","color":"#BFC0E6","rev":30, "cos":0,   "staff":560,  "prof":250, "sm":14,  "subs":168, "ebitda":-822}
+    ],
+    "note": "DEMO · April Adj. EBITDA of $3.9M on $14.5M revenue (27% margin), boosted by Globex's licensing deal. Head office ~6% of consolidated revenue."
+  },
+  "byCompanyMonth": {
+    "revenue": [
+      {"name":"Acme",    "color":"#2B28F5", "cur":4200, "priorMo":3800, "priorYr":4500, "ttm":50000, "spark":[4500,4200,4000,3900,3800,4200]},
+      {"name":"Initech", "color":"#1A1980", "cur":3400, "priorMo":3380, "priorYr":2950, "ttm":39000, "spark":[2950,3050,3150,3280,3380,3400]},
+      {"name":"Umbrella","color":"#7A5CF5", "cur":2300, "priorMo":2420, "priorYr":2900, "ttm":31000, "spark":[2900,2750,2600,2500,2420,2300]},
+      {"name":"Globex",  "color":"#C44DDB", "cur":2250, "priorMo":480,  "priorYr":470,  "ttm":7200,  "spark":[470,480,500,510,480,2250]},
+      {"name":"Hooli",   "color":"#2E8FE0", "cur":1900, "priorMo":2080, "priorYr":2200, "ttm":24000, "spark":[2200,2150,2100,2090,2080,1900]},
+      {"name":"Stark",   "color":"#5BB0E8", "cur":420,  "priorMo":415,  "priorYr":390,  "ttm":4800,  "spark":[390,398,405,410,415,420]},
+      {"name":"Head Office","color":"#BFC0E6","cur":30, "priorMo":127, "priorYr":40,   "ttm":480,   "spark":[40,100,118,127,127,30]}
+    ],
+    "ebitda": [
+      {"name":"Acme",    "color":"#2B28F5", "cur":1210, "priorMo":850,  "priorYr":1320, "ttm":14800, "spark":[1320,1100,980,900,850,1210]},
+      {"name":"Initech", "color":"#1A1980", "cur":1340, "priorMo":1360, "priorYr":980,  "ttm":14900, "spark":[980,1090,1200,1310,1360,1340]},
+      {"name":"Globex",  "color":"#C44DDB", "cur":1580, "priorMo":-50,  "priorYr":-30,  "ttm":1420,  "spark":[-30,-15,8,-50,-22,1580]},
+      {"name":"Other & HO","color":"#BFC0E6","cur":-230, "priorMo":-110, "priorYr":-570, "ttm":-720,  "spark":[-570,-520,-490,-510,-110,-230]}
+    ]
+  },
+  "byCompanyYTD": {
+    "rows": [
+      {"name":"Acme",    "color":"#2B28F5", "rev":16000, "revYoY":-18.0, "ebitda":4300, "ebitdaYoY":-32.0, "spark":[6900,6200,5600,5000,4500,4300]},
+      {"name":"Initech", "color":"#1A1980", "rev":13700, "revYoY":17.0,  "ebitda":5900, "ebitdaYoY":44.0,  "spark":[4100,4500,4900,5300,5700,5900]},
+      {"name":"Umbrella","color":"#7A5CF5", "rev":9600,  "revYoY":-25.0, "ebitda":2240, "ebitdaYoY":-30.0, "spark":[3300,3050,2800,2550,2350,2240]},
+      {"name":"Hooli",   "color":"#2E8FE0", "rev":7900,  "revYoY":-13.0, "ebitda":110,  "ebitdaYoY":-80.0, "spark":[600,480,360,260,160,110]},
+      {"name":"Globex",  "color":"#C44DDB", "rev":3500,  "revYoY":92.0,  "ebitda":1400, "ebitdaYoY":null,  "spark":[-180,-80,30,240,700,1400]},
+      {"name":"Stark",   "color":"#5BB0E8", "rev":1600,  "revYoY":3.0,   "ebitda":400,  "ebitdaYoY":12.0,  "spark":[360,370,380,388,395,400]},
+      {"name":"Head Office","color":"#BFC0E6","rev":210, "revYoY":22.0,  "ebitda":-3700,"ebitdaYoY":-34.0, "spark":[-2700,-3000,-3200,-3400,-3550,-3700]}
+    ],
+    "consolRevYoY": -7.5, "consolEbitdaYoY": 11.3,
+    "budgetRev": 54000, "budgetEbitda": 10800,
+    "commentary": [
+      "<b>Initech &amp; Globex</b> outperform prior year and budget; <b>Hooli</b> faces transactional shortfall.",
+      "<b>Acme:</b> client transitions vs a record prior year; recovery expected next quarter."
+    ]
+  },
+  "revenueTrend": {
+    "commentary": [
+      "April revenue of <b>$14.5M</b> was a TTM high on the Globex licensing deal — above the 12-month average of $12.8M.",
+      "Excluding the deal, revenue would be <b>~$12.7M</b> — in line with the prior quarter."
+    ]
+  },
+  "ebitdaTrend": {
+    "commentary": [
+      "April Adj. EBITDA of <b>$3.9M</b> was a TTM high; margin of <b>27%</b>, up from 16% MoM and 20% YoY.",
+      "Excluding the Globex deal and related costs, Adj. EBITDA would be <b>~$2.3M</b>."
+    ]
+  },
+  "bridge": {
+    "items": [
+      {"label":"Globex",   "value":1610},
+      {"label":"Initech",  "value":360},
+      {"label":"Stark",    "value":4},
+      {"label":"Head Off.","value":-252},
+      {"label":"Hooli",    "value":-180},
+      {"label":"Acme",     "value":-110},
+      {"label":"Umbrella", "value":-72}
+    ],
+    "commentary": [
+      "<b>Globex +$1.6M</b> on the licensing deal is the dominant driver of YoY growth.",
+      "<b>Initech +$0.4M</b> partly offset by Head Office, Hooli and Acme."
+    ]
+  },
+  "mix": {
+    "note": "DEMO · Head office contributed ($0.8M) to Adj. EBITDA and is excluded from the EBITDA mix. Globex, Initech and Acme generate ~87% of pre-head-office Adj. EBITDA."
+  },
+  "matrix": {
+    "points": [
+      {"label":"Acme",    "color":"#2B28F5", "x":-18.0, "y":29.6, "size":50000},
+      {"label":"Initech", "color":"#1A1980", "x":17.0,  "y":38.2, "size":39000},
+      {"label":"Umbrella","color":"#7A5CF5", "x":-25.0, "y":25.2, "size":31000},
+      {"label":"Hooli",   "color":"#2E8FE0", "x":-13.0, "y":3.5,  "size":24000},
+      {"label":"Globex",  "color":"#C44DDB", "x":92.0,  "y":19.7, "size":7200},
+      {"label":"Stark",   "color":"#5BB0E8", "x":3.0,   "y":8.3,  "size":4800}
+    ],
+    "axis": {"xRange":[-40,110], "yRange":[-5,45]}
+  },
+  "fcf": {
+    "lines": [
+      {"label":"Adjusted EBITDA", "value":3900, "kind":"line", "strong":true},
+      {"label":"Less: Adj. EBITDA to NCI", "value":-900, "kind":"line", "muted":true},
+      {"label":"Cash taxes paid", "value":-1100, "kind":"line", "muted":true},
+      {"label":"Interest payments on debt", "value":-2400, "kind":"line", "muted":true},
+      {"label":"Severance", "value":-350, "kind":"line", "muted":true},
+      {"label":"Other adjustments, net", "value":-50, "kind":"line", "muted":true},
+      {"label":"FCF to shareholders", "kind":"subtotal"},
+      {"label":"Add back: severance & non-recurring, net", "value":330, "kind":"line"},
+      {"label":"Adjusted FCF to shareholders", "kind":"total"}
+    ],
+    "commentary": [
+      "<b>Adjusted FCF was ~($0.6M)</b> in April, impacted by the semi-annual interest payment.",
+      "<b>Severance $350K</b> (cash), primarily the Hooli restructure.",
+      "<b>$0.3M in Fund distributions</b> expected next quarter."
+    ],
+    "note": "DEMO · Estimate on an attributable basis, net of NCI. Working-capital changes assumed nil."
+  },
+  "fund": {
+    "holdings": [
+      {"name":"Brewster",  "color":"#2B28F5", "rev":1400, "ebitda":-15, "ownership":92.0},
+      {"name":"Pixelle",   "color":"#7A5CF5", "rev":400,  "ebitda":170, "ownership":85.0},
+      {"name":"Verde",     "color":"#2E8FE0", "rev":680,  "ebitda":-190,"ownership":44.0},
+      {"name":"Cinephile", "color":"#1A1980", "rev":1520, "ebitda":980, "ownership":60.0},
+      {"name":"Petworks",  "color":"#5BB0E8", "rev":130,  "ebitda":50,  "ownership":100}
+    ],
+    "tinyLPInterest": 21.0,
+    "commentary": [
+      "<b>Verde milestone:</b> April was the first month exceeding $1M in sales.",
+      "<b>Fund revenue −7% vs budget</b> on Brewster preorder timing; Cinephile ad revenue above budget.",
+      "<b>$0.3M in Fund distributions</b> expected next quarter."
+    ]
+  },
+  "sotp": {
+    "segments": [
+      {"name":"Initech", "color":"#1A1980", "ttmEbitda":14900, "multiple":13},
+      {"name":"Acme",    "color":"#2B28F5", "ttmEbitda":14800, "multiple":8},
+      {"name":"Umbrella","color":"#7A5CF5", "ttmEbitda":7700,  "multiple":7},
+      {"name":"Hooli",   "color":"#2E8FE0", "ttmEbitda":900,   "multiple":9},
+      {"name":"Globex",  "color":"#C44DDB", "ttmEbitda":1420,  "multiple":14},
+      {"name":"Stark",   "color":"#5BB0E8", "ttmEbitda":1100,  "multiple":8}
+    ],
+    "netDebt": 110000, "tinyEquityPct": 74,
+    "note": "DEMO / Illustrative. Multiples, net debt and ownership are placeholders — replace with current inputs."
+  }
+}
