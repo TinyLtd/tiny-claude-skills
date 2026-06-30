@@ -1,0 +1,16 @@
+{
+  "name": "tiny-skills",
+  "description": "Tiny's corporate governance skills for Claude Code and Claude Chat.",
+  "owner": {
+    "name": "Tiny Ltd",
+    "email": "it@tiny.com"
+  },
+  "plugins": [
+    {
+      "name": "tiny-skills-bundle",
+      "source": "./",
+      "description": "Corporate governance skills for TSX-listed companies: board resolutions, AGM operations, MIC/AIF questionnaires, and SEDI shareholding.",
+      "strict": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tiny-skills-bundle",
+  "description": "Corporate governance skills for TSX-listed companies: board resolutions, AGM operations, MIC/AIF questionnaires, and SEDI shareholding.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tiny Ltd",
+    "email": "it@tiny.com"
+  },
+  "homepage": "https://github.com/TinyLtd/tiny-claude-skills",
+  "repository": "https://github.com/TinyLtd/tiny-claude-skills"
+}
