@@ -15,7 +15,7 @@ scripts/validate_skills.py
 
 ## Add a skill
 
-1. `cp -r skills/example-skill skills/my-skill`
+1. `cp -r template skills/my-skill`
 2. Edit `skills/my-skill/SKILL.md` — `name` must equal the directory name.
 3. Validate locally: `python scripts/validate_skills.py`
 4. Open a PR. CI validates; merging publishes the zips.
