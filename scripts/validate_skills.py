@@ -95,6 +95,7 @@ def main():
 
     if "--manifest" in sys.argv:
         out = Path(sys.argv[sys.argv.index("--manifest") + 1])
+        out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(json.dumps({"skills": index}, indent=2) + "\n")
         print(f"\nwrote {out} ({len(index)} skills)")
 
