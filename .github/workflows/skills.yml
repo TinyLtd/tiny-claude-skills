@@ -34,6 +34,8 @@ jobs:
             name=$(basename "$d")
             (cd skills && zip -r "../dist/$name.zip" "$name")
           done
+          # Bundle every per-skill zip into one download for Chat users.
+          (cd dist && zip -j all-skills.zip *.zip)
           ls -la dist
 
       - name: Publish rolling 'latest' release

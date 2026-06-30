@@ -32,9 +32,15 @@ ln -s ~/src/tiny-claude-skills/skills/* ~/.claude/skills/
 # update later with: git -C ~/src/tiny-claude-skills pull
 ```
 
-**Claude Chat (claude.ai)** — skills are uploaded as zips through the UI.
-Grab a stable zip from the latest release and upload it:
-```
-https://github.com/TinyLtd/tiny-claude-skills/releases/download/latest/<skill-name>.zip
-```
-`index.json` on the same release lists every skill and its zip name.
+**Claude Chat (claude.ai)** — skills are uploaded one zip at a time through
+**Settings → Capabilities → Skills**. There is no bulk import, so:
+
+1. Download the whole set as one file:
+   <https://github.com/TinyLtd/tiny-claude-skills/releases/download/latest/all-skills.zip>
+2. Unzip it — you'll get one `.zip` per skill.
+3. In Claude, open **Settings → Capabilities → Skills → Upload skill** and pick
+   a `.zip`. Repeat for each one you want.
+
+(Or grab a single skill directly:
+`.../releases/download/latest/<skill-name>.zip`. `index.json` on the release
+lists every skill and its zip name.)
