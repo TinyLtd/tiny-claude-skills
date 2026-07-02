@@ -18,6 +18,16 @@ scripts/validate_skills.py
 .github/workflows/skills.yml
 ```
 
+## Skills
+
+| Skill | What it does |
+|-------|--------------|
+| `agm-operations` | AGM and shareholder meeting operations for a TSX-listed company — runbooks, chair scripts, proxy tabulation, governance-invoice review, post-AGM follow-up. |
+| `corp-governance` | Corporate governance command-center and document drafting — board resolutions, minutes, notices, board packs, filing deadlines. |
+| `mic-aif-questionnaire` | Annual governance questionnaire, Management Information Circular (MIC), and Annual Information Form (AIF) drafting, prefill, and year-over-year comparison. |
+| `sedi-shareholding` | SEDI and shareholding discrepancy checker — reconciles reported holdings against SEDI records and the share register. |
+| `tiny-decks` | Builds on-brand Tiny presentation decks as editable PowerPoint (.pptx) and Google Slides from Excel, CSV, PDF, Word, or prior decks. |
+
 ## Install
 
 ### Claude Code — one command
