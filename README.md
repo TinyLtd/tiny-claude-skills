@@ -44,18 +44,19 @@ namespaced under the plugin, e.g. `/tiny-skills-bundle:corp-governance`.
 
 ### Claude Chat (claude.ai) — upload zips
 
-Chat uploads skills one zip at a time through **Settings → Capabilities →
-Skills**; there's no bulk import or API. So:
+Each skill must be uploaded individually. claude.ai rejects zips that contain
+other zips, so there is no `all-skills.zip` bundle.
 
-1. Download the whole set as one file:
-   <https://github.com/TinyLtd/tiny-claude-skills/releases/download/latest/all-skills.zip>
-2. Unzip it — you'll get one `.zip` per skill.
-3. In Claude, **Settings → Capabilities → Skills → Upload skill** and pick a
-   `.zip`. Repeat for each one you want.
+Go to **Organization settings → Skills → Add** (org-wide) or **Settings →
+Capabilities → Skills → Upload skill** (personal), then upload the zip for
+each skill you want:
 
-(Or grab a single skill directly:
-`.../releases/download/latest/<skill-name>.zip`. `index.json` on the release
-lists every skill and its zip name.)
+- [`agm-operations.zip`](https://github.com/TinyLtd/tiny-claude-skills/releases/download/latest/agm-operations.zip)
+- [`corp-governance.zip`](https://github.com/TinyLtd/tiny-claude-skills/releases/download/latest/corp-governance.zip)
+- [`mic-aif-questionnaire.zip`](https://github.com/TinyLtd/tiny-claude-skills/releases/download/latest/mic-aif-questionnaire.zip)
+- [`sedi-shareholding.zip`](https://github.com/TinyLtd/tiny-claude-skills/releases/download/latest/sedi-shareholding.zip)
+- [`tiny-decks.zip`](https://github.com/TinyLtd/tiny-claude-skills/releases/download/latest/tiny-decks.zip)
+- [`tiny-pr.zip`](https://github.com/TinyLtd/tiny-claude-skills/releases/download/latest/tiny-pr.zip)
 
 ## Add a skill
 
