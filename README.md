@@ -27,6 +27,7 @@ scripts/validate_skills.py
 | `mic-aif-questionnaire` | Annual governance questionnaire, Management Information Circular (MIC), and Annual Information Form (AIF) drafting, prefill, and year-over-year comparison. |
 | `sedi-shareholding` | SEDI and shareholding discrepancy checker — reconciles reported holdings against SEDI records and the share register. |
 | `tiny-decks` | Builds on-brand Tiny presentation decks as editable PowerPoint (.pptx) and Google Slides from Excel, CSV, PDF, Word, or prior decks. |
+| `tiny-pr` | Drafts and stages TSX-compliant press releases in Andrew Wilkinson's voice — earnings, M&A, financing, governance/AGM, company updates. Runs a compliance lint and approval gate before staging to Newsfile. |
 
 ## Install
 
@@ -65,14 +66,3 @@ each skill you want:
 3. Validate locally: `python scripts/validate_skills.py`
 4. Open a PR. CI validates on the PR; merging to `main` republishes the
    release and the plugin picks up the new skill on next update.
-
-## Skills
-
-| Skill | Description |
-|---|---|
-| `agm-operations` | AGM and shareholder meeting operations for a TSX-listed public company — AGM prep, notice drafting, proxy logistics, virtual meeting setup. |
-| `corp-governance` | Corporate governance workflows — board resolutions, minutes, agenda, notice drafting for TSX-listed public companies. |
-| `mic-aif-questionnaire` | Annual governance questionnaire, Management Information Circular (MIC), and Annual Information Form (AIF) assistant. |
-| `sedi-shareholding` | SEDI and shareholding discrepancy checker — insider reporting, SEDI filing review, shareholding reconciliation. |
-| `tiny-decks` | Builds polished, on-brand Tiny presentation decks as editable PowerPoint (.pptx) and Google Slides from financial models or briefs. |
-| `tiny-pr` | Drafts and stages TSX-compliant press releases in Andrew Wilkinson's voice — earnings, M&A, financing, governance/AGM, company updates. Runs a compliance lint and approval gate before staging to Newsfile. |
