@@ -2,8 +2,8 @@
 
 Tiny's skills for Claude, installable from one repo. Each
 skill is a directory under `skills/` containing a `SKILL.md`. Merge to `main`
-and CI validates the frontmatter and publishes per-skill zips (plus a bundle)
-to a rolling `latest` release.
+and CI validates the frontmatter and publishes per-skill zips to a rolling
+`latest` release.
 
 ```
 .claude-plugin/
